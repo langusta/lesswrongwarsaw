@@ -1,0 +1,57 @@
+# Site settings
+title: Las rąk
+description: "A responsive Jekyll theme for dental clinics."
+baseurl: "/lwWeb" # the subpath of your site, e.g. /blog
+url: "http://langust.x10.mx/" # the name of your domain
+logo_url: svg/min/logo.svg
+
+# Hero
+hero:
+    hero_img: hero.jpg
+    hero_title: Las Rąk
+    hero_description: Warsaw lesswrong community website.
+
+# Contact form
+api_token: # Enter API token here
+
+# Contact info
+contact:
+    phone: 932 50 540
+    emergency: 931 53 234
+    email: contact@yoursite.com
+    address: plac Grzybowski 12/16, 00-104 Warszawa
+
+# Testimonials
+testimonials:
+    testimonials_img: testimonials.jpg
+
+# Map
+map:
+    zoom: 17
+    address: plac Grzybowski 12/16, 00-104 Warszawa
+    address_details: svg/min/logo.svg
+
+# Social settings
+facebook: https://www.facebook.com/groups/lwwarsaw/
+twitter:
+instagram:
+
+# Footer
+copyright: © 2016 Las Rąk (Lesswrong Warsaw)
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics:
+google_verification:
