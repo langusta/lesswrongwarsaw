@@ -1,9 +1,10 @@
 /* HERO
 -------------------------------------------------*/
 .hero {
-    position: relative;
+    text-align: center;
     margin-top: 70px;
     .container-fluid {
+        margin-left: 25px;
         position: relative;
     }
     .icon {
@@ -11,27 +12,47 @@
         color: $colorPrimary;
         vertical-align: top;
     }
-}
-
-.hero-content {
-    padding: $space 0;
-    background: rgba($white, 0.7);
-    @include breakpoint(small) {
-        position: absolute;
-        bottom: 0;
-        left: 0;
+    .overlay-container {
+        @extend %space;
+        position: relative;
         width: 100%;
-    }
-    .hero-content-inner {
-        @include breakpoint(small) {
-            width: 50%;
+        height: 100%;
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
         }
     }
-    h1 {
-        margin: 0 0 5px;
-        color: $colorPrimary;
+
+    .hero-content {
+        padding: 0 0 $spaceDouble;
+        color: $white;
+        margin-bottom: 80px;
+        @include breakpoint(small) {
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            margin-bottom: 120px;
+        }
+        @include breakpoint(medium) {
+            margin-bottom: 200px;
+        }
+        .hero-content-inner {
+            @include breakpoint(small) {
+                width: 35%;
+            }
+        }
+        h1 {
+
+            color: $white;
+        }
+        p {
+            margin: 0 0 $space;
+            font-size: 1.125rem;
+        }
     }
-    p {
-        font-size: 1.125rem;
-    }
+
 }
