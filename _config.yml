@@ -2,9 +2,7 @@
 title: Las rąk
 description: "A responsive Jekyll theme for dental clinics."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://langust.x10.mx/" # the name of your domain
-github:
-    url: ""
+url: "" # the name of your domain
 logo_url: svg/min/logo.svg
 
 # Hero
