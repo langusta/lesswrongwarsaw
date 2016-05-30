@@ -2,7 +2,7 @@
 -------------------------------------------------*/
 .hero {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 60px;
     .container-fluid {
         margin-left: 25px;
         position: relative;
@@ -30,19 +30,19 @@
     .hero-content {
         padding: 0 0 $spaceDouble;
         color: $white;
-        margin-bottom: 80px;
+        margin-bottom: 90px;
+        width: 60%;
         @include breakpoint(small) {
             bottom: 0;
             left: 0;
-            width: 100%;
-            margin-bottom: 120px;
+            margin-bottom: 130px;
         }
         @include breakpoint(medium) {
-            margin-bottom: 200px;
+            margin-bottom: 210px;
         }
         .hero-content-inner {
             @include breakpoint(small) {
-                width: 35%;
+                width: 60%;
             }
         }
         h1 {

@@ -1,4 +1,4 @@
-/* GONFIG
+/* CONFIG
 -------------------------------------------------*/
 
 /* Fonts
@@ -60,6 +60,7 @@ $bpoints: (
 /* Global
 -------------------------------*/
 $body-bg: $white;
+$body-max-width: 1250px;
 
 /* Navbar
 -------------------------------*/
@@ -92,4 +93,3 @@ $btn-border-radius-small: 0;
 $tooltip-max-width: 260px;
 $tooltip-color: #fff;
 $tooltip-bg: darken($colorPrimary, 2%);
-
