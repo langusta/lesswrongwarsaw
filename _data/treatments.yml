@@ -1,12 +1,11 @@
-- icon: icon-user-md
+- icon: icon-brain
   title: Ważne dyskusje
   description: Ważne dyskusje odbywają się co dwa tygodnie.
 
-- icon: icon-diamond
+- icon: icon-gears
   title: Produktywne niedziele
   description: Na produktywnych niedzielach produkujemy różnorodne wyroby.
 
-- icon: icon-flask
+- icon: icon-newton-cradle
   title: Regularna posiadówa
-  description: Nieformalne spotkanie z piwem. Lokalizacja - patrz mapa poniżej.
-  
+  description: Nieformalne spotkanie z piwem.

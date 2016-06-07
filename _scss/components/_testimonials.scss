@@ -31,6 +31,8 @@
         margin: 0;
         border: none;
         font-style: italic;
+        font-weight: bold;
+        font-size: 1.180rem;
         p {
             margin: 0 0 $space;
         }
@@ -42,7 +44,6 @@
             }
         }
         footer {
-            font-size: 1.063rem;
             font-weight: $fontWeightSemi;
             text-transform: uppercase;
         }
