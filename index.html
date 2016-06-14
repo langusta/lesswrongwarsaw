@@ -18,26 +18,6 @@ layout: default
 </div>
 <!-- End Hero -->
 
-<!-- Start Treatments -->
-<div id="treatments" class="treatments">
-    <div class="container-fluid">
-        <h2 class="section-title">Działania</h2>
-
-        <div class="row">
-            {% for treatment in site.data.treatments %}
-                <div class="col-sm-6 col-md-4">
-                    <div class="icon-box">
-                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
-                        <h4>{{ treatment.title }}</h4>
-                        <p>{{ treatment.description }}</p>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
-</div>
-<!-- End Treatments -->
-
 <!-- Start About -->
 <div id="about" class="about">
     <div class="container-fluid">
@@ -60,3 +40,23 @@ layout: default
     </div>
 </div>
 <!-- End About -->
+
+<!-- Start Treatments -->
+<div id="treatments" class="treatments">
+    <div class="container-fluid">
+        <h2 class="section-title">Działania</h2>
+
+        <div class="row">
+            {% for treatment in site.data.treatments %}
+                <div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
+                        <h4>{{ treatment.title }}</h4>
+                        <p>{{ treatment.description }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- End Treatments -->
