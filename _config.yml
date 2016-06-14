@@ -1,5 +1,5 @@
 # Site settings
-title: Las rąk
+title: Lesswrong Warsaw
 description: "A responsive Jekyll theme for dental clinics."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
@@ -8,8 +8,8 @@ logo_url: svg/min/logo.svg
 # Hero
 hero:
     hero_img: hero.jpg
-    hero_title: Las Rąk
-    hero_description: Warsaw lesswrong community website.
+    hero_title: 			There is no such thing as "right," the very concept needs to be replaced with "progressively less wrong."
+    hero_description: Paul Grobstein
 
 # Contact form
 api_token: # Enter API token here
@@ -37,7 +37,7 @@ twitter:
 instagram:
 
 # Footer
-copyright: © 2016 Las Rąk (Lesswrong Warsaw)
+copyright: © 2016 Lesswrong Warsaw
 
 # Build settings
 markdown: kramdown

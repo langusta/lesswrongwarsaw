@@ -9,8 +9,8 @@ layout: default
         <div class="hero-content">
             <div class="container-fluid">
                 <div class="hero-content-inner">
-                    <h1>{{ site.hero.hero_title }}</h1>
-                    <p>{{ site.hero.hero_description }}</p>
+                    <p>{{ site.hero.hero_title }}</p>
+                    <p class="author">{{ site.hero.hero_description }}</p>
                 </div>
             </div>
         </div>
@@ -60,27 +60,3 @@ layout: default
     </div>
 </div>
 <!-- End Treatments -->
-
-<!-- Start Testimonials -->
-<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.github.url }}/img/{{ site.testimonials.testimonials_img }}');">
-    <div class="overlay-container">
-        <div class="overlay"></div>
-        <div class="container-fluid">
-            <div id="testimonial-carousel">
-                {% for testimonial in site.data.testimonials %}
-                    <div class="testimonial-item">
-                        <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
-                        <blockquote>
-                            <p>{{ testimonial.description }}</p>
-                            <footer>
-                                {{ testimonial.name }}
-                                <small>{{ testimonial.title }}</small>
-                            </footer>
-                        </blockquote>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Testimonials -->
