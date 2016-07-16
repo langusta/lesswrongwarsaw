@@ -1,6 +1,6 @@
 # Site settings
 title: Lesswrong Warsaw
-description: "A responsive Jekyll theme for dental clinics."
+description: "Lesswrong Warsaw Group"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
 logo_url: svg/min/logo.svg
